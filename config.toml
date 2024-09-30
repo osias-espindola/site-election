@@ -17,3 +17,11 @@ title = "Meu Blog"
 
 [extra]
 # Put all your custom variables here
+
+hyde_links = [
+    {url = "https://google.com", name = "Google.com"},
+    {url = "https://google.fr", name = "Google.fr"},
+]
+hyde_sticky = false
+hyde_theme = "theme-base-08"
+hyde_reverse = true
