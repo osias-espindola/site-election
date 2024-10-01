@@ -1,0 +1,19 @@
+<!-- Ce code HTML représente une structure de base pour un blog. Décomposons-le : -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Site Elections</title>
+</head>
+
+<body>
+    <!-- {% block content %} définit une section nommée "content" qui peut être remplacée par du contenu dynamique. {% endblock %} marque la fin de cette section. En d'autres termes, c'est un emplacement réservé au contenu principal du blog (articles, etc.), généré dynamiquement par le backend. -->
+  <section class="section">
+    <div class="container">
+      {% block content %} {% endblock %}
+    </div>
+  </section>
+</body>
+
+</html>
