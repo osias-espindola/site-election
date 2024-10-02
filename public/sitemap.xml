@@ -25,4 +25,11 @@
             
         </url>
     
+        <url>
+            <loc>http://127.0.0.1:1111/blog/third/</loc>
+            
+                <lastmod>2019-11-14T12:00:00Z</lastmod>
+            
+        </url>
+    
 </urlset>
