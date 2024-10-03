@@ -13,7 +13,7 @@ build_search_index = true
 
 theme = "zolastrap"
 description = "Mon merveilleux blog"
-title = "Site elections"
+title = "Résultats d’élections"
 
 
 [extra]
@@ -22,12 +22,18 @@ theme = 'lux'
 bg = "info"
 inverted = false
 
+themes = false
+schemes = false
+
 links = [
-	{title = 'Articles', url = 'articles'},
-    {title = 'Authors', url = 'authors'},
-	{title = 'About', url = 'about'},
-	{title = 'Topics', url = 'tags'},
-	{title = 'Github', url = 'https://github.com/marcodpt/zolastrap'},
+	{title = 'Électeur', url = 'Électeur'},
+    {title = 'Élection', url = 'Élection'},
+	{title = 'Résultats', url = 'Résultats'},
+	{title = "Plus D'information", url = "Plus D'information"},
+	{title = 'Questions courantes', url = 'Questions courantes'},
+    {title = 'Contacts', url = 'Contacts'},
+	
 ]
 
 banner = "img/banner.jpeg"
+
