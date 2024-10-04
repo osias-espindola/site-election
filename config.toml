@@ -27,15 +27,15 @@ schemes = false
 
 links = [
 	{title = 'Électeur', url = 'Électeur'},
-    {title = 'Élection', url = 'Élection'},
+  {title = 'Élection', url = 'Élection'},
 	{title = 'Résultats', url = 'Résultats'},
 	{title = "Plus D'information", url = "Plus D'information"},
 	{title = 'Questions courantes', url = 'Questions courantes'},
-    {title = 'Contacts', url = 'Contacts'},
+  {title = 'Contacts', url = 'Contacts'},
 	
 ]
 
-banner = "img/banner.jpeg"
+
 
 email = "user@mail.com"
 icons = [
