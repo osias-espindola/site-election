@@ -35,6 +35,11 @@
         </url>
     
         <url>
+            <loc>http://127.0.0.1:1111/pages/liens_d_information/</loc>
+            
+        </url>
+    
+        <url>
             <loc>http://127.0.0.1:1111/pages/liens_d_information/bureau-d-vote/</loc>
             
                 <lastmod>2024-10-04</lastmod>
