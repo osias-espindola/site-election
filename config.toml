@@ -12,7 +12,7 @@ highlight_code = true
 build_search_index = true
 
 theme = "zolastrap"
-description = "Mon merveilleux blog"
+description = "Informations électorales "
 title = "Résultats d’élections"
 
 
@@ -37,15 +37,32 @@ links = [
 
 
 
-email = "user@mail.com"
 icons = [
-  {title = 'Facebook', icon = 'facebook-f', url = 'https://www.facebook.com'},
-  {title = 'Instagram', icon = 'instagram', url = 'https://www.instagram.com'},
-  {title = 'Twitter', icon = 'twitter', url = 'https://twitter.com'},
-  {title = 'YouTube', icon = 'youtube', url = 'https://www.youtube.com'}
+  {title = 'Facebook', icon = 'facebook-f', url = 'https://www.facebook.com/nevers.officiel'},
+  {title = 'Instagram', icon = 'instagram', url = 'https://www.instagram.com/villedenevers/'},
+  {title = 'Twitter', icon = 'twitter', url = 'https://x.com/villedenevers'},
+  {title = 'YouTube', icon = 'youtube', url = 'https://www.youtube.com/@agglonevers'}
 ]
 
 utterances = ""
 utterances_label = "Comments"
 utterances_theme = "github-light"
 utterances_issue_term = "pathname"
+
+
+[extra.home]
+sections = [
+  { section = "articles", size = 8, start = 0, end = 4, type = "default" },
+  { section = "articles", size = 4, start = 4, end = 12, type = "horizontal", title = "blog" },
+  { section = "articles", size = 12, start = 0, end = 12, type = "vertical", title = "articles", row = 4 },
+  { section = "articles", size = 6, start = 10, end = 14, type = "vertical", title = "media" },
+  { size = 6, items = [
+    { img = "img/first.jpg", title = "first", url = "about" },
+    { img = "img/second.jpg", title = "second", url = "about" },
+    { img = "img/third.jpg", title = "third", url = "about" },
+    { img = "img/fourth.jpg", title = "fourth", url = "about" },
+    { title = "RSS Feed", description = "Subscribe now!", label = "RSS", icon = "fas fa-rss", button = "secondary", url = "about" }
+  ]},
+  { section = "articles", size = 4, start = 4, end = 14, type = "carousel", title = "library" },
+  { section = "articles", size = 8, start = 6, end = 14, type = "overlay", title = "other", rows = [3, 4] }
+]

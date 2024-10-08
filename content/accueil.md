@@ -7,22 +7,23 @@ paginate_by = 3
 
 +++
 
-![Descrição da imagem](/static/first.jpg)
+![Descrição da imagem](/themes/zolastrap/static/img/first.jpg)
 
 *Legenda da imagem*
 
 [Link relacionado](#)
 
-![Descrição da imagem](/static/third.jpg)
+![Descrição da imagem](/themes/zolastrap/static/img/second.jpg)
 
 *Legenda da imagem*
 
 [Link relacionado](#)
 
 <figure>
-  <img src="/static/fourth.jpg" alt="Descrição da imagem">
+  <img src="/themes/zolastrap/static/img/third.jpg" alt="Descrição da imagem">
   <figcaption>Legenda da imagem</figcaption>
 </figure>
 
 <a href="https://exemplo.com" class="btn btn-primary">Link relacionado</a>
+
 

@@ -5,12 +5,10 @@ date = 2024-10-04
 [extra]
 header_img = "/chemin/à/image-tête.jpg"
 header_img_alt = "Description de l'image de tête"
-
-
 +++
 
-#### Inscription sur les listes électorales ***(#inscription)***
-
+---
+# Inscription sur les listes électorales
 Pour pouvoir voter aux élections législatives, il faut être inscrit sur les listes électorales.
 Cette inscription est automatique pour les jeunes de 18 ans qui ont fait leur recensement.
 Vérifiez votre situation électorale en utilisant le service en ligne sur Service-Public.fr.

@@ -35,6 +35,18 @@
         </url>
     
         <url>
+            <loc>http://127.0.0.1:1111/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/pages/consult_des_result/result-election/</loc>
+            
+                <lastmod>2024-10-04</lastmod>
+            
+        </url>
+    
+        <url>
             <loc>http://127.0.0.1:1111/pages/liens_d_information/</loc>
             
         </url>
@@ -68,9 +80,16 @@
         </url>
     
         <url>
-            <loc>http://127.0.0.1:1111/pages/liens_d_information/vote-eletronique/</loc>
+            <loc>http://127.0.0.1:1111/pages/liens_d_information/ville-de-nevers/</loc>
             
-                <lastmod>2024-10-04</lastmod>
+                <lastmod>2024-10-07</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/pages/liens_d_information/vote-electronique/</loc>
+            
+                <lastmod>2024-10-07</lastmod>
             
         </url>
     

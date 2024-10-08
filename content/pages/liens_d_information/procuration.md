@@ -4,7 +4,9 @@ description = "Comment donner procuration à un autre électeur ?"
 date = 2024-10-04
 +++
 
-#### Vote par procuration
+-- --
+# Vote par procuration  
+
 Vous serez absent le jour du vote et vous voulez charger un électeur d’une procuration ? Vous avez reçu une procuration et devrez voter pour quelqu’un d’autre ? 
 Vous souhaitez faire une demande de procuration 100 % dématérialisée ? Service-Public.fr fait le point.
 
