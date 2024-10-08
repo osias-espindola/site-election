@@ -25,8 +25,13 @@ inverted = false
 themes = false
 schemes = false
 
+# itens da navbar_items
 links = [
-	{title = 'Électeur', url = 'Électeur'},
+	 {title = 'Électeur', url = 'Électeur', children = [
+        {title = 'Inscription', url = '/electeur/inscription'},
+        {title = 'Vérification', url = '/electeur/verification'},
+        {title = 'Carte électorale', url = '/electeur/carte'}
+    ]},
   {title = 'Élection', url = 'Élection'},
 	{title = 'Résultats', url = 'Résultats'},
 	{title = "Plus D'information", url = "Plus D'information"},
@@ -36,7 +41,7 @@ links = [
 ]
 
 
-
+# icon footer
 icons = [
   {title = 'Facebook', icon = 'facebook-f', url = 'https://www.facebook.com/nevers.officiel'},
   {title = 'Instagram', icon = 'instagram', url = 'https://www.instagram.com/villedenevers/'},
