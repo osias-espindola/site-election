@@ -3,7 +3,7 @@ title = "Inscription"
 description = "Comment m’inscrire sur les listes électorales ?"
 date = 2024-10-04
 [extra]
-header_img = "/chemin/à/image-tête.jpg"
+header_img = "vote-internet-legislatives-2022-royaume-uni-.jpg"
 header_img_alt = "Description de l'image de tête"
 +++
 
