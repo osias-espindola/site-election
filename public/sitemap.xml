@@ -12,14 +12,21 @@
         </url>
     
         <url>
-            <loc>http://127.0.0.1:1111/accueil/</loc>
+            <loc>http://127.0.0.1:1111/articles/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/articles/accueil/</loc>
             
                 <lastmod>2024-10-03T12:00:00Z</lastmod>
             
         </url>
     
         <url>
-            <loc>http://127.0.0.1:1111/articles/</loc>
+            <loc>http://127.0.0.1:1111/articles/autre-post/</loc>
+            
+                <lastmod>2019-11-14T12:00:00Z</lastmod>
             
         </url>
     
@@ -31,9 +38,16 @@
         </url>
     
         <url>
-            <loc>http://127.0.0.1:1111/articles/consult_des_result/result-election/</loc>
+            <loc>http://127.0.0.1:1111/articles/election-2024/</loc>
             
-                <lastmod>2024-10-07</lastmod>
+                <lastmod>2024-10-02</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/articles/hello/</loc>
+            
+                <lastmod>2024-10-02</lastmod>
             
         </url>
     
@@ -69,9 +83,21 @@
         </url>
     
         <url>
+            <loc>http://127.0.0.1:1111/articles/page/3/</loc>
+            
+        </url>
+    
+        <url>
             <loc>http://127.0.0.1:1111/articles/procuration/</loc>
             
                 <lastmod>2024-10-04</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/articles/result-election/</loc>
+            
+                <lastmod>2024-10-07</lastmod>
             
         </url>
     
@@ -86,32 +112,6 @@
             <loc>http://127.0.0.1:1111/articles/vote-electronique/</loc>
             
                 <lastmod>2024-10-07</lastmod>
-            
-        </url>
-    
-        <url>
-            <loc>http://127.0.0.1:1111/autre-post/</loc>
-            
-                <lastmod>2019-11-14T12:00:00Z</lastmod>
-            
-        </url>
-    
-        <url>
-            <loc>http://127.0.0.1:1111/election-2024/</loc>
-            
-                <lastmod>2024-10-02</lastmod>
-            
-        </url>
-    
-        <url>
-            <loc>http://127.0.0.1:1111/hello/</loc>
-            
-                <lastmod>2024-10-02</lastmod>
-            
-        </url>
-    
-        <url>
-            <loc>http://127.0.0.1:1111/page/1/</loc>
             
         </url>
     
