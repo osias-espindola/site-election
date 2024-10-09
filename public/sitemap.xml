@@ -7,9 +7,85 @@
         </url>
     
         <url>
+            <loc>http://127.0.0.1:1111/about/</loc>
+            
+        </url>
+    
+        <url>
             <loc>http://127.0.0.1:1111/accueil/</loc>
             
                 <lastmod>2024-10-03T12:00:00Z</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/articles/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/articles/bureau-d-vote/</loc>
+            
+                <lastmod>2024-10-04</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/articles/consult_des_result/result-election/</loc>
+            
+                <lastmod>2024-10-07</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/articles/incription/</loc>
+            
+                <lastmod>2024-10-04</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/articles/liens-d-information/</loc>
+            
+                <lastmod>2024-10-04</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/articles/page-d-accueil/</loc>
+            
+                <lastmod>2024-10-04</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/articles/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/articles/page/2/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/articles/procuration/</loc>
+            
+                <lastmod>2024-10-04</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/articles/ville-de-nevers/</loc>
+            
+                <lastmod>2024-10-07</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/articles/vote-electronique/</loc>
+            
+                <lastmod>2024-10-07</lastmod>
             
         </url>
     
@@ -36,74 +112,6 @@
     
         <url>
             <loc>http://127.0.0.1:1111/page/1/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>http://127.0.0.1:1111/pages/consult_des_result/result-election/</loc>
-            
-                <lastmod>2024-10-07</lastmod>
-            
-        </url>
-    
-        <url>
-            <loc>http://127.0.0.1:1111/pages/liens_d_information/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>http://127.0.0.1:1111/pages/liens_d_information/bureau-d-vote/</loc>
-            
-                <lastmod>2024-10-04</lastmod>
-            
-        </url>
-    
-        <url>
-            <loc>http://127.0.0.1:1111/pages/liens_d_information/incription/</loc>
-            
-                <lastmod>2024-10-04</lastmod>
-            
-        </url>
-    
-        <url>
-            <loc>http://127.0.0.1:1111/pages/liens_d_information/liens-d-information/</loc>
-            
-                <lastmod>2024-10-04</lastmod>
-            
-        </url>
-    
-        <url>
-            <loc>http://127.0.0.1:1111/pages/liens_d_information/procuration/</loc>
-            
-                <lastmod>2024-10-04</lastmod>
-            
-        </url>
-    
-        <url>
-            <loc>http://127.0.0.1:1111/pages/liens_d_information/ville-de-nevers/</loc>
-            
-                <lastmod>2024-10-07</lastmod>
-            
-        </url>
-    
-        <url>
-            <loc>http://127.0.0.1:1111/pages/liens_d_information/vote-electronique/</loc>
-            
-                <lastmod>2024-10-07</lastmod>
-            
-        </url>
-    
-        <url>
-            <loc>http://127.0.0.1:1111/pages/liens_d_information/vote-eletronique/</loc>
-            
-                <lastmod>2024-10-04</lastmod>
-            
-        </url>
-    
-        <url>
-            <loc>http://127.0.0.1:1111/pages/page-d-accueil/</loc>
-            
-                <lastmod>2024-10-04</lastmod>
             
         </url>
     

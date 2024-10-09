@@ -4,13 +4,15 @@ description = "Vote électronique : comment ça marche ?"
 date = 2024-10-07
 +++
 -- --
-# **Vote électronique : comment ça marche ?**
+# **Vote électronique : comment ça marche ?**<br><br>
 
 #### **Réglementation sur le déroulement de la journée de vote**
 
 L'utilisation de machines à voter modifie le déroulement de la journée de scrutin. En particulier, le Président du bureau de vote détiendrait plusieurs codes de sécurité ainsi qu'une clé électronique.
 
 **La journée de vote est découpée par le règlement mav2 en plusieurs fonctions :**
+<br>
+
 1.	_Préparation du scrutin_;
 2.	_Ouverture du scrutin_;
 3.	_Déroulement du scrutin_;
@@ -18,7 +20,7 @@ L'utilisation de machines à voter modifie le déroulement de la journée de scr
 5.	_Dépouillement_;
 6.	_Centralisation des résultats_.
 
-L'avant veille du scrutin, un « dispositif indiquant les candidatures » est mis en place sur la machine11. En pratique, l'entreprise fournissant la machine et/ou le service programme la machine de manière spécifique au scrutin. Le client de la société valide que la programmation informatique est bonne. Des tests sont effectués, la machine est initialisée. Des scellés sont ensuite posés. Les scellés garantiront que la programmation le jour de l'élection est la même que la programmation programmée.
+L'avant veille du scrutin, un « dispositif indiquant les candidatures » est mis en place sur la machine. En pratique, l'entreprise fournissant la machine et/ou le service programme la machine de manière spécifique au scrutin. Le client de la société valide que la programmation informatique est bonne. Des tests sont effectués, la machine est initialisée. Des scellés sont ensuite posés. Les scellés garantiront que la programmation le jour de l'élection est la même que la programmation programmée.
 
 Le matin du scrutin, les membres du bureau essayent de vérifier le fonctionnement correct de la machine:
 
@@ -33,6 +35,8 @@ Le matin du scrutin, les membres du bureau essayent de vérifier le fonctionneme
     >En fin de journée, les votes sont comptés dans chaque bureau de vote, mais « Il ne peut (ni ne doit) y avoir aucun recompte des votes a posteriori (comme pour le vote papier) ».
     >
     >Contrairement au vote manuel qui nécessite du personnel qui sache lire et écrire, le vote en machine ne nécessite à aucun moment de savoir lire ou écrire. De même, un diplôme dans le secteur informatique n'aide pas à la compréhension de ces machines. Ceci est toutefois contesté dans le International Herald Tribune.
+
+<br>
 
 #### Rôle du citoyen
 **Le vote électronique, en France, s'effectue en plusieurs étapes:**
