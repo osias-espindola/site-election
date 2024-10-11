@@ -24,6 +24,13 @@
         </url>
     
         <url>
+            <loc>http://127.0.0.1:1111/articles/aesonis-quam-leves-senex-artes-tellus-nam/</loc>
+            
+                <lastmod>2018-07-06</lastmod>
+            
+        </url>
+    
+        <url>
             <loc>http://127.0.0.1:1111/articles/autre-post/</loc>
             
                 <lastmod>2019-11-14T12:00:00Z</lastmod>

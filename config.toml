@@ -1,6 +1,6 @@
 base_url = "elections.nevers"
 
-default_language = "en"
+default_language = "fr"
 compile_sass = true
 
 theme = "zolastrap"
@@ -21,32 +21,34 @@ build_search_index = true
 highlight_code = true
 
 [extra]
-banner = "img/banner.jpeg"
+banner = "vote-internet02.jpg"
 date_format = '%d/%m/%Y'
 
-theme = 'simplex'
-bg = "dark"
+theme = 'cerulean'
+bg = "info"
 inverted = false
 
-themes = "Choose a Theme"
-schemes = "Choose a Color Scheme"
+themes = false
+schemes = false
 search = 'Search'
 tag = 'Posts by Topic'
 tags = 'Posts by Topics'
 
 links = [
-	{title = 'Articles', url = 'articles'},
-  {title = 'Authors', url = 'authors'},
-	{title = 'About', url = 'about'},
-	{title = 'Topics', url = 'tags'},
-	{title = 'Github', url = 'https://github.com/marcodpt/zolastrap'},
+	{title = 'Contenu', url = '/articles/'},
+  {title = 'Incription', url = '/articles/incription/'},
+	{title = 'Procuration', url = '/articles/procuration/'},
+	{title = 'Bureau de Vote', url = '/articles/bureau-d-vote/'},
+	{title = 'Result', url = '/articles/result-election/'},
 ]
-email = "user@mail.com"
+
+
 icons = [
-  {title = 'Facebook', icon = 'facebook-f', url = 'https://www.facebook.com'},
-  {title = 'Instagram', icon = 'instagram', url = 'https://www.instagram.com'},
-  {title = 'Twitter', icon = 'twitter', url = 'https://twitter.com'},
-  {title = 'YouTube', icon = 'youtube', url = 'https://www.youtube.com'}
+  {title = 'Facebook', icon = 'facebook-f', url = 'https://www.facebook.com/nevers.officiel'},
+  {title = 'Instagram', icon = 'instagram', url = 'https://www.instagram.com/villedenevers/'},
+  {title = 'Twitter', icon = 'twitter', url = 'https://x.com/villedenevers'},
+  {title = 'YouTube', icon = 'youtube', url = 'https://www.youtube.com/@agglonevers'},
+  {title = 'Linkdin', icon = 'linkedin', url = 'https://fr.linkedin.com/company/villedenevers'}
 ]
 
 utterances = ""
