@@ -1,133 +1,66 @@
-<!-- Ce code HTML représente une structure de base pour un blog. Décomposons-le : -->
-<!DOCTYPE html>
-<html>
-  <head>
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
     
-    <title>Vote életronique | Résultats d’élections</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Seagull | Vote életronique</title>
+
+    <meta name="description" content="Vote électronique : comment ça marche ?"><meta name="keywords" content="seagull,">
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;rss.xml">
     
-    <link
-      rel="stylesheet"
-      
-      href="https://bootswatch.com/5/cerulean/bootstrap.min.css"
-      
-    >
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     
     
-    <script src="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;js&#x2F;blockquote.js"></script>
-    <script src="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;js&#x2F;img.js"></script>
+
     
-    <script defer src="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;elasticlunr.min.js"></script>
-    <script defer src="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;search_index.en.js"></script>
-    <script src="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;js&#x2F;search.js"></script>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="generator" content="Zola 0.16"/> 
+    <link rel="stylesheet" type="text/css" href="/combine.css"/>
+    <link rel="stylesheet" type="text/css" href="/custom.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/photoswipe.css"/>
+
+    <link rel="canonical" href="http://127.0.0.1:1111/articles/vote-electronique/"/>
+</head>
+
+<body>
+    
+
+
+    <nav class="">
+    
+    <a href="http:&#x2F;&#x2F;127.0.0.1:1111" class="item "><div>Seagull</div></a>
     
     
-  </head>
-  <body class="d-flex flex-column min-vh-100">
+    <a href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;features&#x2F;" class="item"><div>Features</div></a>
     
-      <div class="w-100">
-        <img src="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;vote-internet02.jpg" class="w-100" />
-      </div>
+    <a href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;contribute&#x2F;" class="item"><div>Contribute</div></a>
     
-    
-    
-    
-    <nav class="
-      navbar
-      navbar-expand-lg
-      navbar-dark
-      bg-info
-    ">
-      <div class="container-fluid">
-        <a class="navbar-brand"
-          href="http:&#x2F;&#x2F;127.0.0.1:1111"
-          title="Informations électorales "
-        >Résultats d’élections</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarColor02"
-          aria-controls="navbarColor02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarColor02">
-          <ul class="navbar-nav me-auto">
-            
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;articles&#x2F;"
-                >Contenu</a>
-              </li>
-            
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;articles&#x2F;incription&#x2F;"
-                >Incription</a>
-              </li>
-            
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;articles&#x2F;procuration&#x2F;"
-                >Procuration</a>
-              </li>
-            
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;articles&#x2F;bureau-d-vote&#x2F;"
-                >Bureau de Vote</a>
-              </li>
-            
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;articles&#x2F;result-election&#x2F;"
-                >Result</a>
-              </li>
-            
-            
-            
-          </ul>
-          
-          <form class="d-flex" onsubmit="return goSearch(event)">
-            <input
-              class="form-control me-sm-2"
-              type="text"
-              placeholder="Search"
-            />
-            <button
-              class="btn btn-secondary my-2 my-sm-0"
-              type="submit"
-            ><i class="fas fa-search"></i></button>
-          </form>
-          
+    <div class="dropdown">
+        <a href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;map&#x2F;" class="dropper">Map</a>
+        <div class="dropdown-content">
         </div>
       </div>
-    </nav>
-    <main class="container mx-auto my-5">
-      
-  <h1>Vote életronique</h1>
-  <p class="text-muted">
+    
+    <a href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;contact&#x2F;" class="item"><div>Contact</div></a>
+    
+    <div class="dropdown">
+        <a href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;blog&#x2F;" class="dropper">Blog
+<svg width="24px" height="24px" viewBox="0 0 24 24" fill="white" >
+<path d="M6.1018 8C5.02785 8 4.45387 9.2649 5.16108 10.0731L10.6829 16.3838C11.3801 17.1806 12.6197 17.1806 13.3169 16.3838L18.8388 10.0731C19.5459 9.2649 18.972 8 17.898 8H6.1018Z"/>
+</svg>
+</a>
+        <div class="dropdown-content"><a href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;blog&#x2F;table-of-content&#x2F;"><span>Table of &lt;i&gt;content&lt;&#x2F;i&gt;</span></a>
+            <a href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;blog&#x2F;hello-world&#x2F;"><span>Hello World!</span></a>
+            
+        </div>
+      </div>
     
   
-  
-  07&#x2F;10&#x2F;2024
-
-  </p>
-  
-  <div class="content">
+</nav>
+    
+<main class="page">
     <hr />
 <h1 id="vote-electronique-comment-ca-marche"><strong>Vote électronique : comment ça marche ?</strong><br><br></h1>
 <h4 id="reglementation-sur-le-deroulement-de-la-journee-de-vote"><strong>Réglementation sur le déroulement de la journée de vote</strong></h4>
@@ -178,57 +111,58 @@
 <p>Il faut noter que dans d'autres bureaux de vote, l'utilisation de la machine à voter ne nécessitait pas d'intervention rapprochée du président du bureau de vote et ne semblait pas provoquer de file d'attentes.</p>
 <p>Enfin une déléguée du Conseil constitutionnel ne voit « aucun problème majeur » dans le déroulement du scrutin, alors que le représentant d'un parti soupçonne des « doubles votes et une somme d'irrégularités ».</p>
 
-  </div>
-  
+</main>
 
-    </main>
-    
-  
+    <footer>
+    <div class="social"><a rel="me" href="#"><div><img alt="Mastodon" class="icon" src="https:&#x2F;&#x2F;cdn.simpleicons.org&#x2F;mastodon&#x2F;FFF"/> <span>Mastodon</span></div></a>
+        <a rel="me" href="#"><div><img alt="Twitter" class="icon" src="https:&#x2F;&#x2F;cdn.simpleicons.org&#x2F;twitter&#x2F;FFF"/> <span>Twitter</span></div></a>
+        <a rel="me" href="#"><div><img alt="Facebook" class="icon" src="https:&#x2F;&#x2F;cdn.simpleicons.org&#x2F;facebook&#x2F;FFF"/> <span>Facebook</span></div></a>
+        <a rel="me" href="#"><div><img alt="Instagram" class="icon" src="https:&#x2F;&#x2F;cdn.simpleicons.org&#x2F;instagram&#x2F;FFF"/> <span>Instagram</span></div></a>
+        </div>
 
-    
-    <footer class="
-      mt-auto p-5
-      bg-info
-      text-center
-      text-white
-    ">
-      
-      
-      <div class="mt-2">
+    <div>
+        <div>
+<svg width="20px" height="20px" fill="white" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+ 123 Seagull avenue, Ocean</div> 
+        <div>
+<svg width="20px" height="20px" fill="white" viewBox="0 -8 72 72" id="Layer_1" data-name="Layer 1"><title>metro-front</title><path d="M48.89,48.14h1.27a6,6,0,0,0,6-6v-36a6,6,0,0,0-6-6H21.84a6,6,0,0,0-6,6v36a6,6,0,0,0,6,6h1.27L14.55,55.8H20l2.74-2.45H49.31l2.74,2.45h5.4ZM48,44.45a3,3,0,1,1,3-3A2.95,2.95,0,0,1,48,44.45Zm-18.72-42H42.71a1.65,1.65,0,0,1,0,3.3H29.29a1.65,1.65,0,1,1,0-3.3ZM18.84,26.25V11.15a3,3,0,0,1,3-3H50.16a3,3,0,0,1,3,3v15.1a3,3,0,0,1-3,3H21.84A3,3,0,0,1,18.84,26.25ZM21,41.5a3,3,0,1,1,2.95,3A2.95,2.95,0,0,1,21,41.5Zm5.67,8.25,1.78-1.61H43.58l1.71,1.61Z"/></svg>
+ Sea subway (42 min by foot)</div>
+        <div>
+<svg width="20px" height="20px" fill="white" viewBox="-5.5 0 32 32">
+<title>bus</title>
+<path d="M0 22.281v-13.563c0-0.438 0.25-1 0.594-1.344 0.094-0.094 0.219-0.156 0.313-0.219h0.031c1.5-1.156 3.469-2 5.719-2.469 1.188-0.219 2.438-0.344 3.75-0.344s2.563 0.125 3.75 0.344c2.25 0.469 4.219 1.313 5.719 2.469h0.031c0.094 0.063 0.188 0.125 0.281 0.219 0.344 0.344 0.625 0.906 0.625 1.344v13.563c0 1-0.688 1.781-1.594 2v1.813c0 0.844-0.688 1.563-1.531 1.563-0.875 0-1.563-0.719-1.563-1.563v-1.75h-11.438v1.75c0 0.844-0.719 1.563-1.563 1.563-0.875 0-1.563-0.719-1.563-1.563v-1.813c-0.906-0.219-1.563-1-1.563-2zM15.625 6.688h-10.438c-0.563 0-1.031 0.469-1.031 1.031 0 0.531 0.469 1 1.031 1h10.438c0.563 0 1-0.469 1-1 0-0.563-0.438-1.031-1-1.031zM3.125 17.063h14.531c0.563 0 1.031-0.5 1.031-1.063v-5.156c0-0.563-0.469-1.063-1.031-1.063h-14.531c-0.563 0-1 0.5-1 1.063v5.156c0 0.563 0.438 1.063 1 1.063zM4.25 22.281c0.906 0 1.625-0.75 1.625-1.656 0-0.938-0.719-1.656-1.625-1.656-0.938 0-1.656 0.719-1.656 1.656 0 0.906 0.719 1.656 1.656 1.656zM16.531 22.281c0.938 0 1.688-0.75 1.688-1.656 0-0.938-0.75-1.656-1.688-1.656-0.906 0-1.625 0.719-1.625 1.656 0 0.906 0.719 1.656 1.625 1.656z"></path>
+</svg>
+ Sand bus station</div>
+        <div>
+<svg width="20px" height="20px" fill="white" viewBox="-20 0 124.6875 124.6875">
+<title>velo</title>
+<path
+fill-rule="evenodd"
+clip-rule="evenodd"
+d="m 81.722662,122.27856 c -26.81,0 -31.1,-30.589999 -15.51,-42.619999 -0.92,-1.87 -1.88,-3.85 -2.88,-5.8795 l -18.69,28.509499 -42.5199998,-0.49 -2.69000004,-3.88 L 9.5726622,83.448561 c -1.8278,-0.609 -3.7434,-0.913 -5.67,-0.9 -21.1700002,0 -22.1900002,31.999999 0.36,31.999999 6.2699998,0 10.6299998,-3 13.0799998,-7.11 l 8.44,0.33 c -3,8.08 -10.07,14.47 -21.2499998,14.47 -33.3799902,0 -31.8599902,-47.419999 -0.53,-47.419999 3.4924,-0.049 6.9564998,0.632 10.1699998,2 l 7.75,-11.0795 -3.27,-6.11 -9.4499998,1.32 c -3.43,-4.6 2.3299998,-11.72 8.9999998,-10.86 3,0.39 16,1.55 16,1.55 l 0.43,5.77 -9.06,1.3 1.91,3.72 30.09,-0.43 c -2.51,-5.16 -4.79,-9.83 -6.28,-12.91 -3.24,-6.67 6.29,-8.07 10.1,-4.23 l -2,6.64 c 0,0 14.41,29.3895 18.73,37.5995 1,1.81 4.49,5.9 7.71,7.389999 l -2.57,4.75 c -6.48,-1.95 -9.69,-6.679999 -12.69,-12.679999 -0.26,-0.52 -0.54,-1.08 -0.83,-1.68 -9,8.699999 -5.61,27.589999 11.67,27.589999 20.499998,0 20.629998,-31.879999 -0.36,-31.879999 h -0.57 l -2.76,-7.58 c 1.135,-0.137 2.277,-0.207 3.42,-0.21 31.259998,0.06 31.059998,47.479999 0.58,47.479999 z m -66.67,-35.439999 -7.3599998,9.719999 11.8799998,-0.1 c -0.3872,-3.621999 -1.9788,-7.008999 -4.52,-9.619999 z m 10.62,-13.9995 -5.85,7.7195 c 4.4114,4.162 7.0838,9.839 7.48,15.889999 l 11,-0.08 z m 5.38,-3.45 12.18,23.7295 16,-24.4595 z"/>
+</svg>
+ Bike is nice</div>
+    </div>
+
+    <div>
         
-          <a
-            class="text-reset mx-1 bg-transparent"
-            href="https:&#x2F;&#x2F;www.facebook.com&#x2F;nevers.officiel"
-            title="Facebook"
-          ><i class="fab fa-facebook-f"></i></a>
-        
-          <a
-            class="text-reset mx-1 bg-transparent"
-            href="https:&#x2F;&#x2F;www.instagram.com&#x2F;villedenevers&#x2F;"
-            title="Instagram"
-          ><i class="fab fa-instagram"></i></a>
-        
-          <a
-            class="text-reset mx-1 bg-transparent"
-            href="https:&#x2F;&#x2F;x.com&#x2F;villedenevers"
-            title="Twitter"
-          ><i class="fab fa-twitter"></i></a>
-        
-          <a
-            class="text-reset mx-1 bg-transparent"
-            href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@agglonevers"
-            title="YouTube"
-          ><i class="fab fa-youtube"></i></a>
-        
-          <a
-            class="text-reset mx-1 bg-transparent"
-            href="https:&#x2F;&#x2F;fr.linkedin.com&#x2F;company&#x2F;villedenevers"
-            title="Linkdin"
-          ><i class="fab fa-linkedin"></i></a>
-        
-      </div>
-      
-    </footer>
-    
-  <script src="/livereload.js?port=1000&mindelay=10"></script></body>
+            <div><a href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;">Home</a></div>
+            <div><a href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;about&#x2F;">About</a></div>
+            <div><a href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;contact&#x2F;">Contact</a></div>
+            <div><a href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;contribute&#x2F;">Contribute</a></div>
+    </div>
+
+    <div>
+        <p>Website made with <a href="https://www.getzola.org/">Zola</a> and <a href="https://git.42l.fr/HugoTrentesaux">seagull theme</a></p>
+        <p>© Content under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a> licence</p>
+        <p><a href="https://trentesaux.fr/">
+<svg width="16px" height="16px" fill="white" viewBox="1 1 22 22">
+<path d="M20.2929 9.70708C20.5789 9.99307 21.009 10.0786 21.3827 9.92385C21.7564 9.76907 22 9.40443 22 8.99997V2.99997C22 2.44768 21.5523 1.99997 21 1.99997H15C14.5955 1.99997 14.2309 2.24361 14.0761 2.61729C13.9213 2.99096 14.0069 3.42108 14.2929 3.70708L16.2322 5.64641L9.58574 12.2929C9.19522 12.6834 9.19522 13.3166 9.58574 13.7071L10.2928 14.4142C10.6834 14.8048 11.3165 14.8048 11.7071 14.4142L18.3536 7.76774L20.2929 9.70708Z" />
+<path d="M4.5 8.00006C4.5 7.72392 4.72386 7.50006 5 7.50006H10.0625C10.6148 7.50006 11.0625 7.05234 11.0625 6.50006V5.50006C11.0625 4.94777 10.6148 4.50006 10.0625 4.50006H5C3.067 4.50006 1.5 6.06706 1.5 8.00006V19.0001C1.5 20.9331 3.067 22.5001 5 22.5001H16C17.933 22.5001 19.5 20.9331 19.5 19.0001V13.9376C19.5 13.3853 19.0523 12.9376 18.5 12.9376H17.5C16.9477 12.9376 16.5 13.3853 16.5 13.9376V19.0001C16.5 19.2762 16.2761 19.5001 16 19.5001H5C4.72386 19.5001 4.5 19.2762 4.5 19.0001V8.00006Z"/>
+</svg>
+ Give in Ğ1</a> <input type="color" value="#1b317a" style="border: none; padding:0; height: 2em; width: 2em; margin-top: -1em; position: relative; top: 0.5em;"/></p>
+    </div>
+</footer>
+<script src="/livereload.js?port=1000&mindelay=10"></script></body>
+
 </html>

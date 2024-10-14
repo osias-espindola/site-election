@@ -1,103 +1,88 @@
-base_url = "elections.nevers"
+# The URL the site will be built for
+base_url = "https://seagull.coinduf.eu/"
 
-default_language = "fr"
+# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
-theme = "seagull"
-description = "Informations électorales "
-title = "Résultats d’élections"
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
 
-generate_feed = false
-output_dir = "docs"
+# Do build rss.xml
+
+
+
+
+# theme
+theme = "seagull"
 
 taxonomies = [
-  {name = "tags", paginate_by = 5},
-  {name = "authors", paginate_by = 5},
-]
+    {name = "authors"},
+    {name = "tags"},
+    {name = "category"},
+    ]
 
-build_search_index = true
+default_language = "fr"
+
 
 [markdown]
-highlight_code = true
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
 
 [extra]
-banner = "vote-internet02.jpg"
-date_format = '%d/%m/%Y'
+# Put all your custom variables here
+name = "Seagull"
+logo = "img/gull.svg"
+description = "Seagull demo website"
 
-theme = 'cerulean'
-bg = "info"
-inverted = false
 
-themes = false
-schemes = false
-search = 'Search'
-tag = 'Posts by Topic'
-tags = 'Posts by Topics'
+# Number of articles to display on homepage
+[extra.homepage]
+n_articles = 5
 
+# This configures the navigation menu
+[extra.nav]
 links = [
-	{title = 'Contenu', url = '/articles/'},
-  {title = 'Incription', url = '/articles/incription/'},
-	{title = 'Procuration', url = '/articles/procuration/'},
-	{title = 'Bureau de Vote', url = '/articles/bureau-d-vote/'},
-	{title = 'Result', url = '/articles/result-election/'},
+    # "_index.md",
+    "features.md",
+    "contribute.md",
+    "map/_index.md",
+    "contact.md",
+    "blog/_index.md",
 ]
 
-
-icons = [
-  {title = 'Facebook', icon = 'facebook-f', url = 'https://www.facebook.com/nevers.officiel'},
-  {title = 'Instagram', icon = 'instagram', url = 'https://www.instagram.com/villedenevers/'},
-  {title = 'Twitter', icon = 'twitter', url = 'https://x.com/villedenevers'},
-  {title = 'YouTube', icon = 'youtube', url = 'https://www.youtube.com/@agglonevers'},
-  {title = 'Linkdin', icon = 'linkedin', url = 'https://fr.linkedin.com/company/villedenevers'}
+# This configures the footer menu
+[extra.footer]
+links = [
+    "_index.md",
+    "about.md",
+    "contact.md",
+    "contribute.md",
 ]
 
-utterances = ""
-utterances_label = "Comments"
-utterances_theme = "github-light"
-utterances_issue_term = "pathname"
+# the following links will appear in the footer
+[[extra.social.link]]
+name = "Mastodon"
+url = "#"
+img = "https://cdn.simpleicons.org/mastodon/FFF"
+[[extra.social.link]]
+name = "Twitter"
+url = "#"
+img = "https://cdn.simpleicons.org/twitter/FFF"
+[[extra.social.link]]
+name = "Facebook"
+url = "#"
+img = "https://cdn.simpleicons.org/facebook/FFF"
+[[extra.social.link]]
+name = "Instagram"
+url = "#"
+img = "https://cdn.simpleicons.org/instagram/FFF"
 
-# Do not change this variables
-data_themes = [
-  'default',
-  'cerulean',
-  'cosmo',
-  'cyborg',
-  'darkly',
-  'flatly',
-  'journal',
-  'litera',
-  'lumen',
-  'lux',
-  'materia',
-  'minty',
-  'morph',
-  'pulse',
-  'quartz',
-  'sandstone',
-  'simplex',
-  'sketchy',
-  'slate',
-  'solar',
-  'spacelab',
-  'superhero',
-  'united',
-  'vapor',
-  'yeti',
-  'zephyr'
-]
-data_schemes = [
-  'dark',
-  'light',
-  'primary',
-  'primary inverted',
-  'secondary',
-  'secondary inverted',
-  'success',
-  'success inverted',
-  'danger',
-  'danger inverted',
-  'warning',
-  'warning inverted',
-  'info',
-  'info inverted',
-]
+
+[extra.theme]
+toc_title = "Table of content"
+feed_thumb_height = 240
+
+[extra.theme.date]
+format="%Y-%m-%d"
+locale="en_US"

@@ -80,21 +80,6 @@
         </url>
     
         <url>
-            <loc>http://127.0.0.1:1111/articles/page/1/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>http://127.0.0.1:1111/articles/page/2/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>http://127.0.0.1:1111/articles/page/3/</loc>
-            
-        </url>
-    
-        <url>
             <loc>http://127.0.0.1:1111/articles/procuration/</loc>
             
                 <lastmod>2024-10-04</lastmod>
@@ -119,6 +104,135 @@
             <loc>http://127.0.0.1:1111/articles/vote-electronique/</loc>
             
                 <lastmod>2024-10-07</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/authors/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/authors/me/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/authors/you/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/blog/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/blog/hello-world/</loc>
+            
+                <lastmod>2023-06-20</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/blog/table-of-content/</loc>
+            
+                <lastmod>2023-06-21</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/category/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/category/blog/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/contact/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/contribute/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/features/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/map/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/map/path1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/map/path2/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/map/path3/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/map/path4/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/map/path5/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/map/path6/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/map/path7/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/map/path8/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/map/path9/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/box/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/seagull/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/toc/</loc>
             
         </url>
     

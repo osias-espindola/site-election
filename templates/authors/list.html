@@ -1,11 +1,15 @@
-{% import "macros/authorbox.html" as authorbox %}
-{% extends "base.html" %}
+{# templates/authors/list.html #}
 
-{% block title %}{{config.title}} - Authors{% endblock %}
 
 {% block content %}
-  <h1>Authors</h1>
-  {% for term in terms %}
-    {{authorbox::render(author_slug=term.name)}}
-  {% endfor %}
+<h1>Autores</h1>
+{% if authors is defined %}
+    <ul>
+        {% for author in authors %}
+        <li><a href="{{ author.permalink }}">{{ author.name }}</a></li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>Aucun auteur trouvé.</p>
+{% endif %}
 {% endblock content %}
