@@ -3,7 +3,7 @@ base_url = "elections.nevers"
 default_language = "fr"
 compile_sass = true
 
-theme = "zolastrap"
+theme = "seagull"
 description = "Informations électorales "
 title = "Résultats d’élections"
 
